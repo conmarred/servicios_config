@@ -16,4 +16,4 @@ eureka:
     hostname: ${hostreal}
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://${hosteureka}:8761/eureka
